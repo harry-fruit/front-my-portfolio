@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@use "tailwindcss";
 
 @font-face {
   font-family: "Inter Tight";
@@ -29,7 +27,7 @@
   }
   @if $theme == "light" {
     h1 {
-      @apply text-title-light;
+      color: #27272A;
     }
 
     h2,
@@ -37,14 +35,14 @@
     h4,
     h5,
     h6 {
-      @apply text-subtitle-light;
+      color: #4B4B52;
     }
     p {
-      @apply text-paragraph-light;
+      color: #5F5F66;
     }
   } @else if $theme == "dark" {
     h1 {
-      @apply text-title-dark;
+      color: #E3ECFF;
     }
 
     h2,
@@ -52,11 +50,11 @@
     h4,
     h5,
     h6 {
-      @apply text-subtitle-dark;
+      color: #D1D7EB;
     }
 
     p {
-      @apply text-paragraph-dark;
+      color: #B8B9D1;
     }
   }
 }

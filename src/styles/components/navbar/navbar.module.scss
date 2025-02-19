@@ -11,7 +11,7 @@ $hovered-links-color: rgb(var(--title-color));
     "body"
     "footer";
   grid-template-rows: 1fr auto;
-  overflow: scroll;
+  overflow-y: scroll;
   background-color: var(--navbar-color);
   -webkit-box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.15);

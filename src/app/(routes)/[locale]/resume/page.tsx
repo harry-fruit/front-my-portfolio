@@ -6,23 +6,19 @@ import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
 import { DownloadIcon } from "@/components/icons/Download";
 import { GithubIcon } from "@/components/icons/GithubIcon";
 import { EmailIcon } from "@/components/icons/EmailIcon";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import toast from "react-hot-toast";
 import { handleResumeGeneration } from "@/util/generateResume";
 import { useTransition } from "react";
 import { Loader } from "@/components/Loader";
 import { useUserDevice } from "@/hooks/useUserDevice";
 
-type ResumeProps = {
-  params: {
-    locale: string;
-  };
-};
 
-const Resume = ({ params: { locale } }: ResumeProps) => {
-  const t = useTranslations("resume");
+const Resume = () => {
   const [isPending, startTransition] = useTransition();
+  const t = useTranslations("resume");
   const userDevice = useUserDevice();
+  const locale = useLocale();
 
   const generateResume = async () => {
     startTransition(async () => {

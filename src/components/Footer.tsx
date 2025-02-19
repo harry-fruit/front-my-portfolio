@@ -7,6 +7,7 @@ import { useTranslations } from "next-intl";
 
 // TODO: Translate titles
 export const Footer = () => {
+  const currentYear = new Date().getFullYear();
   const t = useTranslations("footer");
   return (
     <footer id="footer" className={style.footer}>
@@ -37,7 +38,7 @@ export const Footer = () => {
         </Link>
       </div>
       <p className="text-center px-8 text-gray-200 font-medium">
-        {t("copyright")}
+        Copyright &copy; {currentYear} Isaque Duarte
       </p>
     </footer>
   );
