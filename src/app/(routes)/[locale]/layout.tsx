@@ -3,11 +3,13 @@ import { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { ThemeProvider } from "next-themes";
+import { notFound } from "next/navigation";
 import { Toaster } from "react-hot-toast";
+import { routing } from "@/i18n/routing";
 
 type AppLayoutProps = {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 };
 
 export const metadata: Metadata = {
@@ -17,8 +19,14 @@ export const metadata: Metadata = {
 
 export default async function AppLayout({
   children,
-  params: { locale },
+  params,
 }: AppLayoutProps) {
+  const { locale } = await params;
+
+  if (!routing.locales.includes(locale as any)) {
+    notFound();
+  }
+
   const messages = await getMessages();
 
   return (

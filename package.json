@@ -12,20 +12,21 @@
     "@formspree/core": "^3.0.1",
     "@formspree/react": "^2.5.1",
     "@visx/scale": "^3.5.0",
-    "@visx/text": "^3.3.0",
+    "@visx/text": "^3.12.0",
     "@visx/wordcloud": "^3.3.0",
     "animejs": "^3.2.2",
     "jsonwebtoken": "^9.0.2",
-    "next": "14.2.4",
-    "next-intl": "^3.15.2",
-    "next-themes": "^0.3.0",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "15.1.7",
+    "next-intl": "^3.26.3",
+    "next-themes": "^0.4.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "react-hot-toast": "^2.4.1",
     "react-swipeable": "^7.0.1",
     "sass": "^1.77.5"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.7",
     "@types/animejs": "^3.1.12",
     "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20",
@@ -36,7 +37,10 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "tailwind-scrollbar": "^4.0.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5",
+    "tailwindcss-animate": "^1.0.7",
+    "tailwind-merge": "^3.0.1"
   }
 }

@@ -1,4 +1,16 @@
-@import "./mixins.scss";
+@mixin section-box-shadow(
+  $color: rgba(0, 0, 0, 0.35),
+  $blur: 8px,
+  $spread: 2px,
+  $opacity: 0.35
+) {
+  $rgbaColor: if(type-of($color) == color, $color, rgba($color, 1));
+
+  -webkit-box-shadow: inset 0px 0px $blur $spread $rgbaColor;
+  -moz-box-shadow: inset 0px 0px $blur $spread $rgbaColor;
+  box-shadow: inset 0px 0px $blur $spread $rgbaColor;
+}
+
 
 .projectsContainer {
   @include section-box-shadow(rgba(0, 0, 0, 0.35), 8px, 0.3px, 0.35);

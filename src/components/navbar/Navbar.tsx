@@ -58,7 +58,7 @@ export const Navbar = ({ isActive, setIsActive }: NavbarProps) => {
   ];
 
   return (
-    <nav className={`${style.navbar} ${isActive ? style.active : ""}`}>
+    <nav className={`${style.navbar} ${isActive ? style.active : ""} scrollbar-none`}>
       <div className={`${style.content} ${isActive ? style.active : ""}`}>
         <section className={style.navigation}>
           <ul>

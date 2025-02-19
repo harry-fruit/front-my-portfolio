@@ -25,11 +25,11 @@ export const ThemeToggle = () => {
           value={theme}
           checked={theme == "dark"}
           onChange={toggle}
-          title={
-            theme === "dark"
-              ? t("accessibility.theme.light")
-              : t("accessibility.theme.dark")
-          }
+          // title={
+          //   theme === "dark"
+          //     ? t("accessibility.theme.light")
+          //     : t("accessibility.theme.dark")
+          // }
         />
         <span className={style.themeFill}></span>
         <span className={style.themeIcon}>

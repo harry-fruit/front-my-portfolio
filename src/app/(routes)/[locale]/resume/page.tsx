@@ -92,16 +92,12 @@ const Resume = ({ params: { locale } }: ResumeProps) => {
                 {t("aside.skills.core.title")}
               </h2>
               <ul>
-                <li>Javascript</li>
                 <li>Typescript</li>
-                <li>React.js</li>
-                <li>Next.js</li>
-                <li>Vue.js</li>
-                <li>SQL</li>
                 <li>Node.js</li>
                 <li>Python</li>
-                <li>Sass</li>
-                <li>Tailwind</li>
+                <li>React.js</li>
+                <li>Next.js</li>
+                <li>SQL</li>
               </ul>
             </div>
             <div className={style.skills}>

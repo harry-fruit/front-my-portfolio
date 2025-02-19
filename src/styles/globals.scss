@@ -1,5 +1,3 @@
-@import "mixins";
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,6 +5,60 @@
 @font-face {
   font-family: "Inter Tight";
   src: url("../font/InterTight-VariableFont_wght.ttf");
+}
+
+@mixin fonts-definition($theme) {
+  h1 {
+    @apply text-4xl font-bold;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
+  p {
+    @apply text-base;
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-semibold;
+  }
+  @if $theme == "light" {
+    h1 {
+      @apply text-title-light;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @apply text-subtitle-light;
+    }
+    p {
+      @apply text-paragraph-light;
+    }
+  } @else if $theme == "dark" {
+    h1 {
+      @apply text-title-dark;
+    }
+
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @apply text-subtitle-dark;
+    }
+
+    p {
+      @apply text-paragraph-dark;
+    }
+  }
 }
 
 :root {
