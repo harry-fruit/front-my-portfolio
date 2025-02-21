@@ -13,9 +13,12 @@ $primary-color: rgb(var(--primary-color));
 .resumeContainer {
   background-color: rgb(var(--primary-color));
 
+
   * {
     transition: transform 0.3s ease-out;
     overflow: visible;
+    fill: #E3ECFF;
+    color: #E3ECFF;
   }
 
   &:hover * {

@@ -78,9 +78,9 @@ export const Experience = (): JSX.Element => {
             <DocumentIcon
               width="40"
               height="40"
-              className="text-title-dark font-bold"
+              className={`${style.resumeIcon} font-bold`}
             />
-            <p className="text-title-dark capitalize font-bold text-lg">
+            <p className={`${style.resumeText} capitalize font-bold text-lg`}>
               {t("resume.text")}
             </p>
           </FadeIn>
