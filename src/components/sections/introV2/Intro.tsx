@@ -1,9 +1,9 @@
 "use client";
 
+import style from "@/styles/portfolio/landing/intro.module.scss";
 import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
 import { Button } from "../contact/form/Button";
 import { GithubIcon } from "@/components/icons/GithubIcon";
-import style from "@/styles/portfolio/landing/intro.module.scss";
 import { Link } from "@/navigation";
 import { useTranslations } from "next-intl";
 import { WordCloud } from "@/components/WordCloud";

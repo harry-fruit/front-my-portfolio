@@ -1,17 +1,5 @@
 import style from "@/styles/components/input.module.scss";
-import { ValidationError } from "@formspree/react";
-import {
-  FieldValues,
-  SubmissionError,
-  SubmissionSuccess,
-} from "@formspree/core";
 
-type StateProps = {
-  errors: SubmissionError<FieldValues> | null;
-  result: SubmissionSuccess | null;
-  submitting: boolean;
-  succeeded: boolean;
-};
 
 type Props = {
   id: string;
@@ -19,7 +7,6 @@ type Props = {
   required?: boolean;
   className?: string;
   name: string;
-  state: StateProps;
   placeholder: string;
 };
 
@@ -28,7 +15,6 @@ export const Input = ({
   required = false,
   className = "",
   name,
-  state,
   placeholder,
 }: Props) => {
   return (
@@ -40,7 +26,6 @@ export const Input = ({
         className={`${style.input} ${style.inputAlt}`}
         name={name}
       />
-      <ValidationError prefix={type} field={name} errors={state.errors} />
       <span className={`${style.inputBorder} ${style.inputBorderAlt}`}></span>
     </div>
   );

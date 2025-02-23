@@ -6,6 +6,7 @@ import { ThemeProvider } from "next-themes";
 import { notFound } from "next/navigation";
 import { Toaster } from "react-hot-toast";
 import { routing } from "@/i18n/routing";
+import { TLocale } from "@/types/locale.type";
 
 type AppLayoutProps = {
   children: React.ReactNode;
@@ -23,7 +24,7 @@ export default async function AppLayout({
 }: AppLayoutProps) {
   const { locale } = await params;
 
-  if (!routing.locales.includes(locale as any)) {
+  if (!routing.locales.includes(locale as TLocale)) {
     notFound();
   }
 

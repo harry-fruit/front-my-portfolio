@@ -2,12 +2,11 @@
 
 import style from "@/styles/components/theme-toggle.module.scss";
 import { getNewTheme } from "@/util/getTheme";
-import { useTranslations } from "next-intl";
 import { useTheme } from "next-themes";
 
 export const ThemeToggle = () => {
   const { setTheme, resolvedTheme: theme } = useTheme();
-  const t = useTranslations("navbar");
+  // const t = useTranslations("navbar");
   const toggle = () => {
     const newTheme = getNewTheme(theme);
     setTheme(newTheme);
