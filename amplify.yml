@@ -10,9 +10,8 @@ frontend:
     build:
       commands:
         - bun run build
-        - bun run export
   artifacts:
-    baseDirectory: out
+    baseDirectory: .next
     files:
       - '**/*'
   cache:
