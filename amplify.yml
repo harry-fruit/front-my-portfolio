@@ -18,3 +18,4 @@ frontend:
     paths:
       - bun.lockb
       - .bun
+      - node_modules/**/*
