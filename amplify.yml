@@ -7,6 +7,10 @@ frontend:
         - export BUN_INSTALL="$HOME/.bun"
         - export PATH="$BUN_INSTALL/bin:$PATH"
         - bun install
+        - echo "API_SECRET=$API_SECRET" >> .env.production
+        - echo "JWT_SECRET=$JWT_SECRET" >> .env.production
+        - echo "API_URL=$API_URL" >> .env.production
+        - echo "ENVIRONMENT=$ENVIRONMENT" >> .env.production
     build:
       commands:
         - bun run build
