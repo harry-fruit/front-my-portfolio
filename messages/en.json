@@ -1,79 +1,79 @@
 {
   "introduction": {
+    "learnMore": "Learn more",
     "btns": {
       "about": "About me",
-      "resume": "My Résumé"
+      "resume": "Resume"
     },
     "links": {
       "linkedInTitle": "My LinkedIn profile",
       "githubTitle": "My Github profile"
-    },
-    "learnMore": "Learn more"
+    }
   },
   "about": {
     "title": {
-      "greeting": "Hey there!",
-      "name": "I'm Isaque!"
+      "greeting": "Hello!",
+      "name": "I am Isaque!"
     },
-    "subTitle": "Passionate about creating web solutions and enthusiastic about AI, always exploring new ways to innovate and improve processes",
-    "firstParagraph": "I am a full stack web developer with extensive experience in front-end. I have solid knowledge in jQuery, React, Next.js, and previous experience with Gatsby, which allows me to create intuitive and dynamic user interfaces, always applying the best practices and available technologies. My dedication to front-end development drives me to constantly strive for excellence and create engaging and accessible user experiences.",
-    "secondParagraph": "In the back-end, I work efficiently using Node.js and Python to create REST APIs and develop automated ETL processes. I also have some experience with Java, which allows me to leverage its strengths in building robust backend services. My solid knowledge in relational databases, especially SQL Server, enables me to effectively manage and integrate data in complex systems",
-    "thirdParagraph": "As a software engineer, I value efficiency in creating robust and scalable solutions. I prioritize writing clean and well-structured code, ensuring that solutions are sustainable and easy to maintain. Additionally, I am a strong advocate for AI, constantly exploring new technologies to optimize and transform processes, believing in AI's potential to revolutionize software development"
+    "subTitle": "Passionate about creating web solutions and an AI enthusiast, always exploring new ways to innovate and optimize processes.",
+    "firstParagraph": "I am a full stack web developer with extensive front-end experience. I have strong knowledge in jQuery, React, Next.js and experience with Gatsby, which allows me to create intuitive and dynamic interfaces by applying current best practices and technologies.",
+    "secondParagraph": "On the back-end, I work with Node.js and Python to develop REST APIs and automated ETL processes. I also have experience with Java, enabling me to build robust services. My in-depth knowledge of relational databases, especially SQL Server, allows me to effectively manage and integrate data in complex systems.",
+    "thirdParagraph": "As a software engineer, I prioritize creating scalable and sustainable solutions by writing clean, well-structured code. Additionally, I am an AI enthusiast, constantly seeking new technologies to transform processes and drive innovation in software development."
   },
   "experiences": {
     "title": "Experiences",
     "subTitle": "Some of my experiences as a developer and student",
-    "card1date": "January 2020",
-    "card1title": "Introduction to the world of development",
-    "card1description": "My first 'Hello World'. It was here where I began studying on my own and became self-taught.",
-    "card2date": "March 2020",
-    "card2title": "Development of personal projects",
-    "card2description": "After building a solid knowledge base, I decided to deepen my studies through the development of personal projects.",
-    "card3date": "January 2021",
+    "card1date": "January, 2020",
+    "card1title": "Introduction to the World of Development",
+    "card1description": "My first 'Hello World'. This is where I began self-studying and became self-taught.",
+    "card2date": "March, 2020",
+    "card2title": "Development of Personal Projects",
+    "card2description": "After building a solid foundation, I deepened my studies by developing personal projects.",
+    "card3date": "January, 2021",
     "card3title": "Start of College",
-    "card3description": "After a year of self-study and skill development, I decided to enroll in the Software Analysis and Development course at Universidade Cruzeiro do Sul.",
-    "card4date": "June 2021",
-    "card4title": "First professional experience",
-    "card4description": "This is where I began working as a developer, working on web applications as a full stack developer.",
-    "card5date": "January 2022",
+    "card3description": "After a year of self-study and honing my skills, I enrolled in the Software Analysis and Development program at Universidade Cruzeiro do Sul.",
+    "card4date": "June, 2021",
+    "card4title": "First Professional Experience",
+    "card4description": "I began my professional career as a full stack developer, creating and enhancing web applications.",
+    "card5date": "January, 2022",
     "card5title": "Joining 4MapIT",
-    "card5description": "Here, I worked as a systems analyst, conducting requirements gathering, systems modeling, and web application development using jQuery, Node.js, and SQL Server.",
-    "card6date": "January 2023",
+    "card5description": "I worked as a systems analyst, gathering requirements, modeling systems, and developing full stack web applications using jQuery, Node.js, and SQL Server.",
+    "card6date": "January, 2023",
     "card6title": "College Graduation",
-    "card6description": "This is where I graduated as a systems analyst, learned database management, developed web and mobile applications, and primarily honed my skills in software engineering.",
+    "card6description": "I graduated in Systems Analysis, deepening my knowledge in databases, web and mobile development, and strengthening my foundation in software engineering.",
     "card7date": "Present",
-    "card7title": "What I do now?",
-    "card7description": "Currently, I work full-time as a systems analyst at Octea. In my spare time, I work as a freelancer and continue to deepen my knowledge in various areas of technology, such as web application development, data science, machine learning, etc.",
+    "card7title": "What Am I Doing Now?",
+    "card7description": "Currently, I work full-time as a systems analyst at Octea. In my spare time, I freelance and continue to advance my knowledge in various technology areas, such as web development, data science, and machine learning.",
     "present": "Present",
     "resume": {
-      "title": "See my résumé",
-      "text": "My Résumé"
+      "title": "View my resume",
+      "text": "My Resume"
     }
   },
   "projects": {
     "title": "My Projects",
     "subTitle": "Some of my personal and professional projects",
-    "slideTip": "Tip: You can slide or click 'next' to see more projects"
+    "slideTip": "Tip: Swipe or click 'next' to view more projects"
   },
   "contact": {
-    "title": "Send me a message!",
-    "subTitle": "Got a question or proposal, or just want to say hello? Go ahead",
+    "title": "Get in Touch",
+    "subTitle": "Have a question, proposal, or just want to say hello? Let's talk!",
     "inputNamePlaceholder": "Enter your name",
     "inputEmailPlaceholder": "Enter your email",
-    "inputMessagePlaceholder": "Write your message here",
-    "inputButton": "Submit",
-    "success": "Thanks for your message. I will get in touch as soon as possible! :)"
+    "inputMessagePlaceholder": "Type your message here",
+    "inputButton": "Send",
+    "success": "Thank you for your message. I will get in touch with you soon!"
   },
   "resume": {
     "myInfo": {
       "role": "Software Engineer / Full Stack Developer",
       "location": "São Paulo, Brazil"
     },
-    "subtitle": "Passionate about creating web solutions and enthusiastic about AI, always exploring new ways to innovate and improve processes",
+    "subtitle": "Passionate about creating web solutions and an AI enthusiast, always exploring new ways to innovate and optimize processes.",
     "links": {
       "linkedInTitle": "My LinkedIn profile",
       "githubTitle": "My Github profile",
-      "emailTitle": "Send me an e-mail",
+      "emailTitle": "Send me an email",
       "downloadTitle": "Download Resume",
       "downloadText": "Download"
     },
@@ -84,68 +84,82 @@
           "title": "Core Skills"
         },
         "others": {
-          "title": "Others",
+          "title": "Other Skills",
           "skills": {
-            "one": "Design Systems",
-            "two": "Responsive Web Design",
+            "one": "System Modeling",
+            "two": "Responsive Design",
             "three": "Performance Optimization",
-            "four": "ETL Process",
+            "four": "ETL Processes",
             "five": "Clean Code",
-            "six": "Git",
-            "seven": "Rest API"
+            "six": "REST API",
+            "seven": "DDD"
           }
         }
       }
     },
     "experiences": {
       "title": "Experiences",
-      "subtitle": "I've worked on a handful of web projects over the years, some of which were for the following organizations:",
+      "subtitle": "I have worked on various web projects over the years, contributing to organizations of different sizes:",
       "jobs": {
         "one": {
           "role": "Full Stack Developer",
-          "period": "March/Jun 2021",
-          "description": "Responsible for creating web applications from scratch and implementing new features in existing applications. I acted on requirements analysis, front-end development, and back-end development, ensuring efficient integration between different systems. I used good programming practices and agile development principles to deliver high-quality and scalable solutions.",
+          "period": "March - June 2021",
+          "description": "Responsible for developing web applications from scratch and implementing new features in existing systems. I worked on requirement analysis, front-end and back-end development, ensuring efficient integration between various platforms and utilizing agile practices to deliver scalable solutions.",
           "activities": {
-            "one": "Creation of features and support for front-end applications using React.js, Next.js, Gatsby.js, and other technologies.",
-            "two": "Creation of features and support for back-end applications using Node.js, Express.js, Koa.js, Nest.js, and other technologies.",
-            "three": "Control of version control with Git.",
-            "four": "Utilization of cloud services such as AWS, including EC2, SES, and Lambda."
+            "one": "Development and support of front-end features using React.js, Next.js, and Gatsby.js.",
+            "two": "Creation and maintenance of back-end features with Node.js, Express.js, Koa.js, and Nest.js.",
+            "three": "Utilization of cloud services such as AWS (EC2, SES, Lambda)."
           }
         },
         "two": {
-          "role": "Systems Analyst",
-          "period": "Jan 2022-Present",
-          "description": "Worked as a systems analyst and full-stack developer, creating complex systems from scratch and providing support for existing applications. Responsible for requirements analysis and gathering, interface creation, back-end services development (including APIs, automated processes, scheduled tasks, and ETL processes), relational database structure modeling, and implementation.",
+          "role": "Systems Analyst/Developer",
+          "period": "January 2022 - June 2023",
+          "description": "Worked as a systems analyst and full stack developer, creating complex systems and providing support for existing solutions. Responsible for requirement analysis, interface creation, API development, automated processes, scheduled tasks, and relational database modeling.",
           "activities": {
-            "one": "Creation of features and support for existing front-end functionalities with jQuery.",
-            "two": "Development of APIs REST with Node.js.",
-            "three": "Development of structures and processes with relational databases (SQL Server).",
-            "four": "Analysis of requirements and system modeling.",
-            "five": "Creation of automated processes.",
-            "six": "Creation of ETL processes (Extract, Transform, Load) with Python and SQL Server."
+            "one": "Development and support of front-end features using jQuery.",
+            "two": "Creation and maintenance of REST APIs with Node.js.",
+            "three": "Development of processes and structures with SQL Server.",
+            "four": "Requirement analysis and system modeling."
+          }
+        },
+        "three": {
+          "role": "Systems Analyst/Developer",
+          "period": "June 2023 - Present",
+          "description": "Currently, I work as a systems analyst and full stack developer, conceptualizing and implementing complex systems from scratch. I contribute to requirement analysis, interface creation, API development, automated processes, and relational database modeling.",
+          "activities": {
+            "one": "Conceptualization and development of applications from scratch.",
+            "two": "Validation of PRs and release management.",
+            "three": "Implementation and management of messaging queues with RabbitMQ.",
+            "four": "System analysis and modeling.",
+            "five": "Automation of manual processes, boosting productivity.",
+            "six": "Creation of ETL processes using Python and SQL Server.",
+            "seven": "Providing technical support to the team and assisting with business rules.",
+            "eight": "Management of cloud resources with Azure (VMs, Storage, DNS, etc.)."
           }
         }
       }
     },
     "projects": {
       "title": "Projects",
-      "text": "Links to some of my work can be found on isaquedev/projects and details can be provided upon request via a scheduled demo call."
+      "text": "Links to some of my work can be found at isaquedev/projects. Additional details can be provided upon request and by scheduling a demonstration."
     },
     "errors": {
       "generateResume": "Failed to generate resume",
-      "localeNotProvided": "Locale not provided"
+      "localeNotProvided": "Language not provided"
     },
-    "loadingSpinner": { "message": "Generating résumé..." }
+    "loadingSpinner": {
+      "message": "Generating resume..."
+    }
   },
   "navbar": {
     "about": "About",
     "experiences": "Experiences",
     "projects": "Projects",
-    "resume": "My Résumé",
-    "sayHello": "Say Hello",
+    "resume": "My Resume",
+    "sayHello": "Say Hello!",
     "links": {
-      "githubTitle":"My Github",
-      "linkedInTitle":"My LinkedIn"
+      "githubTitle": "My Github",
+      "linkedInTitle": "My LinkedIn"
     },
     "menuButton": {
       "open": "Open Menu",
@@ -165,7 +179,9 @@
   },
   "footer": {
     "copyright": "Copyright © 2024 Isaque Duarte",
-    "whatsappLink": "https://wa.me/5511964957516?text=Hello%2C%20I%20would%20like%20to%20request%20a%20consultation"
+    "whatsappLink": "https://wa.me/5511964957516?text=Hello%2C%20I%20would%20like%20to%20schedule%20a%20consultation"
   },
-  "loadingSpinner": { "message": "Loading..." }
+  "loadingSpinner": {
+    "message": "Loading..."
+  }
 }

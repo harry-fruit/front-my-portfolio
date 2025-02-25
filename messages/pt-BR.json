@@ -15,35 +15,35 @@
       "greeting": "Olá!",
       "name": "Eu sou Isaque!"
     },
-    "subTitle": "Apaixonado por criar soluções web e entusiasta em IA, sempre explorando novas formas de inovar e melhorar processos.",
-    "firstParagraph": "Sou um desenvolvedor web full stack com vasta experiência em front-end. Possuo conhecimentos sólidos em jQuery, React, Next.js e experiência prévia com Gatsby, o que me permite criar interfaces de usuário intuitivas e dinâmicas, sempre aplicando as melhores práticas e tecnologias disponíveis. Minha dedicação ao desenvolvimento front-end me impulsiona a sempre buscar a excelência e criar experiências de usuário envolventes e acessíveis.",
-    "secondParagraph": "No back-end, trabalho com eficiência utilizando Node.js e Python para criar APIs REST e desenvolver processos automatizados e de ETL. Também possuo alguma experiência com Java, o que me permite aproveitar suas vantagens na construção de serviços robustos no backend. Meu sólido conhecimento em bancos de dados relacionais, especialmente SQL Server, me permite gerenciar e integrar dados de forma eficaz em sistemas complexos.",
-    "thirdParagraph": "Como engenheiro de software, valorizo a eficiência na criação de soluções robustas e escaláveis. Priorizo a escrita de código limpo e bem estruturado, garantindo que as soluções sejam sustentáveis e de fácil manutenção. Além disso, sou um grande entusiasta de IA, sempre explorando novas tecnologias para otimizar e transformar processos, acreditando no potencial da IA para revolucionar o desenvolvimento de software."
+    "subTitle": "Apaixonado por criar soluções web e entusiasta de IA, sempre explorando novas maneiras de inovar e otimizar processos.",
+    "firstParagraph": "Sou um desenvolvedor web full stack com ampla experiência em front-end. Tenho conhecimentos sólidos em jQuery, React, Next.js e experiência com Gatsby, o que me permite criar interfaces intuitivas e dinâmicas, aplicando as melhores práticas e tecnologias atuais.",
+    "secondParagraph": "No back-end, atuo com Node.js e Python para desenvolver APIs REST e processos automatizados de ETL. Também possuo experiência com Java, possibilitando a construção de serviços robustos. Meu conhecimento aprofundado em bancos de dados relacionais, especialmente SQL Server, me permite gerenciar e integrar dados de forma eficaz em sistemas complexos.",
+    "thirdParagraph": "Como engenheiro de software, priorizo a criação de soluções escaláveis e sustentáveis, escrevendo código limpo e bem estruturado. Além disso, sou um entusiasta de IA, sempre em busca de novas tecnologias para transformar processos e impulsionar a inovação no desenvolvimento de software."
   },
   "experiences": {
     "title": "Experiências",
-    "subTitle": "Algumas de minhas experiências como desenvolvedor e estudante",
+    "subTitle": "Algumas de minhas vivências como desenvolvedor e estudante",
     "card1date": "Janeiro, 2020",
     "card1title": "Introdução ao mundo do desenvolvimento",
-    "card1description": "Meu primeiro 'Hello World'. Foi aqui onde comecei a estudar por conta própria e me tornei autodidata.",
+    "card1description": "Meu primeiro 'Hello World'. Foi a partir desse momento que iniciei meus estudos autodidatas.",
     "card2date": "Março, 2020",
-    "card2title": "Desenvolvimento de projeto pessoais",
-    "card2description": "Após desenvolver uma boa base de conhecimentos, resolvi me aprofundar nos estudos a partir do desenvolvimento de projetos pessoais.",
+    "card2title": "Desenvolvimento de projetos pessoais",
+    "card2description": "Após construir uma base sólida, aprofundei meus estudos através do desenvolvimento de projetos pessoais.",
     "card3date": "Janeiro, 2021",
-    "card3title": "Inicio da Faculdade",
-    "card3description": "Após um ano estudando como autodidata e desenvolvendo minhas habilidades, resolvi entrar na Faculdade de Analise e Desenvolvimento de Software na Universidade Cruzeiro do Sul.",
+    "card3title": "Início da Faculdade",
+    "card3description": "Após um ano de estudos autodidatas e aprimoramento das minhas habilidades, ingressei na Faculdade de Análise e Desenvolvimento de Software na Universidade Cruzeiro do Sul.",
     "card4date": "Junho, 2021",
     "card4title": "Primeira experiência profissional",
-    "card4description": "Foi aqui onde comecei a trabalhar como desenvolvedor, trabalhando em aplicativos web já como full stack.",
+    "card4description": "Iniciei minha carreira profissional atuando como desenvolvedor full stack, criando e aprimorando aplicativos web.",
     "card5date": "Janeiro, 2022",
-    "card5title": "Ingressão à 4MapIT",
-    "card5description": "Aqui trabalhei como analista de sistemas, realizando levantamento de requisitos, modelagem de sistemas e desenvolvimento de aplicativos web, onde realizava o desenvolvimento full stack com jQuery, Node.js e SQLServer.",
+    "card5title": "Ingresso na 4MapIT",
+    "card5description": "Atuei como analista de sistemas, realizando levantamento de requisitos, modelagem de sistemas e desenvolvimento de aplicativos web full stack com jQuery, Node.js e SQL Server.",
     "card6date": "Janeiro, 2023",
     "card6title": "Formatura da Faculdade",
-    "card6description": "Foi aqui onde me formei como analista de sistemas, aprendi a trabalhar com banco de dados, a criar aplicações web e aplicações mobile, e, principalmente , foi onde desenvolvi meus conhecimentos sobre engenharia de software.",
+    "card6description": "Concluí a graduação em Análise de Sistemas, aprofundando meus conhecimentos em bancos de dados, desenvolvimento web e mobile, e fortalecendo minha base em engenharia de software.",
     "card7date": "Presente",
     "card7title": "O que faço agora?",
-    "card7description": "Atualmente estou trabalhando full time como analista de sistemas na Octea e nas horas vagas, atuo como freelancer e também sigo me aprofundando em conhecimento de diversas areas de tecnologia, como o desenvolvimento de aplicativos web, data science, machine learning, etc.",
+    "card7description": "Atualmente, trabalho em tempo integral como analista de sistemas na Octea. Nas horas vagas, atuo como freelancer e continuo me aprimorando em diversas áreas da tecnologia, como desenvolvimento web, data science e machine learning.",
     "present": "Presente",
     "resume": {
       "title": "Veja meu currículo",
@@ -53,23 +53,23 @@
   "projects": {
     "title": "Meus Projetos",
     "subTitle": "Alguns dos meus projetos pessoais e profissionais",
-    "slideTip": "Dica: Você pode deslizar ou clicar em 'próximo' para ver mais projetos"
+    "slideTip": "Dica: Deslize ou clique em 'próximo' para visualizar mais projetos"
   },
   "contact": {
     "title": "Entre em contato",
-    "subTitle": "Tem alguma duvida ou proposta, ou só quer dizer olá? Então, vamos!",
+    "subTitle": "Tem alguma dúvida, proposta ou deseja apenas dizer olá? Vamos conversar!",
     "inputNamePlaceholder": "Insira seu nome",
     "inputEmailPlaceholder": "Insira seu email",
     "inputMessagePlaceholder": "Escreva sua mensagem aqui",
     "inputButton": "Enviar",
-    "success": "Obrigado pela mensagem. Entrarei em contato com você assim que possivel! :)"
+    "success": "Obrigado pela mensagem. Em breve, entrarei em contato!"
   },
   "resume": {
     "myInfo": {
       "role": "Engenheiro de Software / Desenvolvedor Full Stack",
       "location": "São Paulo, Brasil"
     },
-    "subtitle": "Apaixonado por criar soluções web e entusiasta de IA, sempre explorando novas maneiras de inovar e melhorar processos",
+    "subtitle": "Apaixonado por criar soluções web e entusiasta de IA, sempre explorando novas maneiras de inovar e otimizar processos.",
     "links": {
       "linkedInTitle": "Meu perfil no LinkedIn",
       "githubTitle": "Meu perfil no Github",
@@ -84,58 +84,72 @@
           "title": "Habilidades Principais"
         },
         "others": {
-          "title": "Outras",
+          "title": "Outras Habilidades",
           "skills": {
-            "one": "Sistemas de Design",
+            "one": "Modelagem de Sistemas",
             "two": "Design Responsivo",
             "three": "Otimização de Performance",
             "four": "Processo ETL",
             "five": "Código Limpo",
-            "six": "Git",
-            "seven": "API Rest"
+            "six": "API REST",
+            "seven": "DDD"
           }
         }
       }
     },
     "experiences": {
       "title": "Experiências",
-      "subtitle": "Trabalhei em diversos projetos web ao longo dos anos, alguns dos quais foram para as seguintes organizações:",
+      "subtitle": "Atuei em diversos projetos web ao longo dos anos, contribuindo para organizações de diferentes portes:",
       "jobs": {
         "one": {
           "role": "Desenvolvedor Full Stack",
-          "period": "Mar/Jun 2021",
-          "description": "Responsável por criar aplicações web do zero e implementar novas funcionalidades em aplicações existentes. Atuei na análise de requisitos, desenvolvimento front-end e back-end, garantindo integração eficiente entre diferentes sistemas. Utilizei boas práticas de programação e princípios de desenvolvimento ágil para entregar soluções de alta qualidade e escaláveis.",
+          "period": "Março - Junho 2021",
+          "description": "Responsável por desenvolver aplicações web do zero e implementar novas funcionalidades em sistemas existentes. Atuei na análise de requisitos, desenvolvimento front-end e back-end, garantindo a integração eficiente entre diversas plataformas e utilizando práticas ágeis para entregar soluções escaláveis.",
           "activities": {
-            "one": "Criação de funcionalidades e suporte para aplicações front-end utilizando React.js, Next.js, Gatsby.js, e outras tecnologias.",
-            "two": "Criação de funcionalidades e suporte para aplicações back-end utilizando Node.js, Express.js, Koa.js, Nest.js, e outras tecnologias.",
-            "three": "Controle de versão com Git.",
-            "four": "Utilização de serviços em nuvem como AWS, incluindo EC2, SES, e Lambda."
+            "one": "Desenvolvimento e suporte de funcionalidades front-end utilizando React.js, Next.js e Gatsby.js.",
+            "two": "Criação e manutenção de funcionalidades back-end com Node.js, Express.js, Koa.js e Nest.js.",
+            "three": "Utilização de serviços em nuvem, como AWS (EC2, SES, Lambda)."
           }
         },
         "two": {
-          "role": "Analista de Sistemas",
-          "period": "Jan 2022-Presente",
-          "description": "Trabalhei como analista de sistemas e desenvolvedor full-stack, criando sistemas complexos do zero e dando suporte para aplicações existentes. Responsável pela análise e levantamento de requisitos, criação de interfaces, desenvolvimento de serviços back-end (incluindo APIs, processos automatizados, tarefas agendadas e processos ETL), modelagem de estrutura de banco de dados relacional e implementação.",
+          "role": "Analista/Desenvolvedor de Sistemas",
+          "period": "Janeiro 2022 - Junho 2023",
+          "description": "Atuei como analista e desenvolvedor full stack, criando sistemas complexos e oferecendo suporte a soluções existentes. Responsável pela análise de requisitos, criação de interfaces, desenvolvimento de APIs, processos automatizados, tarefas agendadas e modelagem de bancos de dados relacionais.",
           "activities": {
-            "one": "Criação de funcionalidades e suporte para funcionalidades front-end existentes com jQuery.",
-            "two": "Desenvolvimento de APIs REST com Node.js.",
-            "three": "Desenvolvimento de estruturas e processos com bancos de dados relacionais (SQL Server).",
-            "four": "Análise de requisitos e modelagem de sistemas.",
-            "five": "Criação de processos automatizados.",
-            "six": "Criação de processos ETL (Extract, Transform, Load) com Python e SQL Server."
+            "one": "Desenvolvimento e suporte de funcionalidades front-end utilizando jQuery.",
+            "two": "Criação e manutenção de APIs REST com Node.js.",
+            "three": "Desenvolvimento de processos e estruturas com SQL Server.",
+            "four": "Análise de requisitos e modelagem de sistemas."
+          }
+        },
+        "three": {
+          "role": "Analista/Desenvolvedor de Sistemas",
+          "period": "Junho 2023 - Presente",
+          "description": "Atualmente, atuo como analista de sistemas e desenvolvedor full stack, idealizando e implementando sistemas complexos desde o início. Contribuo na análise de requisitos, criação de interfaces, desenvolvimento de APIs e processos automatizados, além da modelagem de bancos de dados relacionais.",
+          "activities": {
+            "one": "Idealização e desenvolvimento de aplicações do zero.",
+            "two": "Validação de PRs e gestão de releases.",
+            "three": "Implementação e gerenciamento de filas de mensageria com RabbitMQ.",
+            "four": "Análise e modelagem de sistemas.",
+            "five": "Automatização de processos manuais, aumentando a produtividade.",
+            "six": "Criação de processos ETL com Python e SQL Server.",
+            "seven": "Apoio técnico à equipe e suporte em regras de negócio.",
+            "eight": "Gestão de recursos de nuvem com Azure (VMs, Storage, DNS, etc.)."
           }
         }
       }
     },
     "projects": {
       "title": "Projetos",
-      "text": "Links para alguns dos meus trabalhos podem ser encontrados em isaquedev/projects e detalhes podem ser fornecidos mediante solicitação através de uma chamada de demonstração agendada."
+      "text": "Links para alguns dos meus trabalhos podem ser encontrados em isaquedev/projects. Detalhes adicionais podem ser fornecidos mediante solicitação e agendamento de uma demonstração."
     },
     "errors": {
       "generateResume": "Falha ao gerar currículo",
       "localeNotProvided": "Linguagem não fornecida"
     },
-    "loadingSpinner": { "message": "Gerando currículo..." }
+    "loadingSpinner": {
+      "message": "Gerando currículo..."
+    }
   },
   "navbar": {
     "about": "Sobre",
@@ -144,8 +158,8 @@
     "resume": "Meu Currículo",
     "sayHello": "Diga Olá!",
     "links": {
-      "githubTitle":"Meu Github",
-      "linkedInTitle":"Meu LinkedIn"
+      "githubTitle": "Meu Github",
+      "linkedInTitle": "Meu LinkedIn"
     },
     "menuButton": {
       "open": "Abrir Menu",
@@ -167,5 +181,7 @@
     "copyright": "Copyright © 2024 Isaque Duarte",
     "whatsappLink": "https://wa.me/5511964957516?text=Ol%C3%A1%2C%20gostaria%20de%20realizar%20uma%20consultoria"
   },
-  "loadingSpinner": { "message": "Carregando..." }
+  "loadingSpinner": {
+    "message": "Carregando..."
+  }
 }

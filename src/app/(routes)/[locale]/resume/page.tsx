@@ -91,9 +91,13 @@ const Resume = () => {
                 <li>Typescript</li>
                 <li>Node.js</li>
                 <li>Python</li>
+                <li>Langchain</li>
                 <li>React.js</li>
                 <li>Next.js</li>
                 <li>SQL</li>
+                <li>Azure</li>
+                <li>AWS</li>
+                <li>RabbitMQ</li>
               </ul>
             </div>
             <div className={style.skills}>
@@ -148,7 +152,6 @@ const Resume = () => {
                 <li>{t("experiences.jobs.one.activities.one")}</li>
                 <li>{t("experiences.jobs.one.activities.two")}</li>
                 <li>{t("experiences.jobs.one.activities.three")}</li>
-                <li>{t("experiences.jobs.one.activities.four")}</li>
               </ul>
             </div>
             <div className={style.experienceItem}>
@@ -175,8 +178,34 @@ const Resume = () => {
                 <li>{t("experiences.jobs.two.activities.two")}</li>
                 <li>{t("experiences.jobs.two.activities.three")}</li>
                 <li>{t("experiences.jobs.two.activities.four")}</li>
-                <li>{t("experiences.jobs.two.activities.five")}</li>
-                <li>{t("experiences.jobs.two.activities.six")}</li>
+              </ul>
+            </div>
+            <div className={style.experienceItem}>
+              <div className={style.experienceHeader}>
+                <p>
+                  <span
+                    className={`${style.companyName} ${style.primaryColor}`}
+                  >
+                    Octea{" "}
+                  </span>
+                  <span className={style.role}>
+                    ― {t("experiences.jobs.three.role")}
+                  </span>
+                </p>
+                <p className={style.period}>
+                  {t("experiences.jobs.three.period")}
+                </p>
+              </div>
+              <p className={style.description}>
+                {t("experiences.jobs.three.description")}
+              </p>
+              <ul>
+                <li>{t("experiences.jobs.three.activities.one")}</li>
+                <li>{t("experiences.jobs.three.activities.two")}</li>
+                <li>{t("experiences.jobs.three.activities.three")}</li>
+                <li>{t("experiences.jobs.three.activities.four")}</li>
+                <li>{t("experiences.jobs.three.activities.five")}</li>
+                <li>{t("experiences.jobs.three.activities.six")}</li>
               </ul>
             </div>
           </div>
