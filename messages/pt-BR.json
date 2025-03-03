@@ -62,7 +62,12 @@
     "inputEmailPlaceholder": "Insira seu email",
     "inputMessagePlaceholder": "Escreva sua mensagem aqui",
     "inputButton": "Enviar",
-    "success": "Obrigado pela mensagem. Em breve, entrarei em contato!"
+    "success": "Obrigado pela mensagem. Em breve, entrarei em contato!",
+    "errors": {
+      "name": "Nome deverá conter no mínimo 3 caracteres",
+      "email": "Email inválido",
+      "message": "A mensagem deverá conter no mínimo 10 caracteres"
+    }
   },
   "resume": {
     "myInfo": {

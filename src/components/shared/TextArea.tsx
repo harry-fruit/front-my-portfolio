@@ -8,6 +8,9 @@ id: string;
   className?: string;
   name: string;
   placeholder: string;
+  onChange: React.ChangeEventHandler<HTMLTextAreaElement>;
+  error?: string;
+  value: string
 };
 
 export const TextArea = ({
@@ -15,6 +18,8 @@ export const TextArea = ({
   className = "",
   name,
   placeholder,
+  error,
+  onChange
 }: Props) => {
   return (
     <div className={`${style.formControl} ${className}`}>
@@ -23,9 +28,9 @@ export const TextArea = ({
         placeholder={placeholder}
         className={`${style.input} ${style.inputAlt} text-slate-800 dark:text-slate-50`}
         name={name}
-        
+        onChange={onChange}
       />
-      <span className={`${style.inputBorder} ${style.inputBorderAlt}`}></span>
+      {error && <p className="bg-">{error}</p>}
     </div>
   );
 };

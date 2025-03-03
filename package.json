@@ -23,7 +23,8 @@
     "react-hot-toast": "^2.5.2",
     "react-swipeable": "^7.0.2",
     "react-wordcloud": "^1.2.7",
-    "sass": "^1.85.0"
+    "sass": "^1.85.0",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.8",
