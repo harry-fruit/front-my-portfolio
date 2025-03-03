@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-sdk/client-ses": "^3.758.0",
     "@formspree/core": "^3.0.1",
     "@visx/scale": "^3.12.0",
     "@visx/text": "^3.12.0",

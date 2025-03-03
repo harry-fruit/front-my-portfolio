@@ -1,12 +1,42 @@
 import { NextResponse } from "next/server";
+import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
+
+const sesClient = new SESClient({
+  region: 'sa-east-1',
+  credentials: {
+    accessKeyId: process.env.AWS_ACCESS_KEY_ID as string,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY as string,
+  },
+});
 
 export async function POST(req: Request) {
-  const { name, email } = await req.json();
+  const { name, email, message } = await req.json();
 
-  if (!name || !email) {
-    return NextResponse.json({ error: "All fields are required!" }, { status: 400 });
+  if (!name || !email || !message) {
+    return NextResponse.json(
+      { error: "All fields are required!" },
+      { status: 400 }
+    );
   }
 
-  console.log("Saving user:", { name, email });
-  return NextResponse.json({ success: "User created successfully!" }, { status: 201 });
+  const to = 'contact@isaquedev.com';
+
+  try {
+    const command = new SendEmailCommand({
+      Destination: { ToAddresses: [to] },
+      Message: {
+        Body: {
+          Text: { Data: message },
+        },
+        Subject: { Data: `New message on my portfolio` },
+      },
+      Source: process.env.EMAIL_FROM as string, // Must be a verified email in SES
+    });
+
+    await sesClient.send(command);
+    return NextResponse.json({ success: "Email sent successfully!" }, { status: 201 });
+  } catch (error) {
+    console.error('Error sending email:', error);
+    return NextResponse.json({ error: 'Error sending email!' }, { status: 500 });
+  }
 }
