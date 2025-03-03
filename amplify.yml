@@ -12,8 +12,8 @@ frontend:
         - echo "API_URL=$API_URL" >> .env.production
         - echo "ENVIRONMENT=$ENVIRONMENT" >> .env.production
         - echo "EMAIL_FROM=$EMAIL_FROM" >> .env.production
-        - echo "AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID" >> .env.production
-        - echo "AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY" >> .env.production
+        - echo "SES_ACCESS_KEY_ID=$SES_ACCESS_KEY_ID" >> .env.production
+        - echo "SES_SECRET_ACCESS_KEY=$SES_SECRET_ACCESS_KEY" >> .env.production
     build:
       commands:
         - bun run build
