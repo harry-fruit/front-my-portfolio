@@ -1,10 +1,15 @@
+"use client"
+
 import style from "@/styles/portfolio/landing/contact.module.scss";
 import { Form } from "@/components/sections/contact/form/Form";
 import { FadeIn } from "@/components/shared/FadeIn";
 import { useTranslations } from "next-intl";
+import { useState } from "react";
 
 export const Contact = () => {
   const t = useTranslations("contact");
+  const [useFormIsSubmitted, setFormIsSubmitted] = useState(false);
+
   return (
     <div
       id="contact"
@@ -25,7 +30,7 @@ export const Contact = () => {
           </div>
           <h3 className="text-center">{t("subTitle")}</h3>
         </div>
-        <Form />
+        {useFormIsSubmitted ? <p>{t("success")}</p> : <Form setFormIsSubmitted={setFormIsSubmitted} />}
       </FadeIn>
     </div>
   );

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-sdk/client-ses": "^3.758.0",
     "@formspree/core": "^3.0.1",
     "@visx/scale": "^3.12.0",
     "@visx/text": "^3.12.0",
@@ -23,7 +24,8 @@
     "react-hot-toast": "^2.5.2",
     "react-swipeable": "^7.0.2",
     "react-wordcloud": "^1.2.7",
-    "sass": "^1.85.0"
+    "sass": "^1.85.0",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.8",

@@ -5,18 +5,50 @@ import { Input } from "@/components/shared/Input";
 import { TextArea } from "@/components/shared/TextArea";
 import { Button } from "@/components/sections/contact/form/Button";
 import { useTranslations } from "next-intl";
+import { useState } from "react";
+import { contactEmail } from "@/lib/validations/contact-email";
 
-export const Form = () => {
+
+export const Form = ({ setFormIsSubmitted }: { setFormIsSubmitted: React.Dispatch<React.SetStateAction<boolean>> }) => {
   const t = useTranslations("contact");
-  // const [state, handleSubmit] = useForm("mbjnneyo");
 
-  // if (state.succeeded) {
-  //   return <p>{t("success")}</p>;
-  // }
+  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
+  const [errors, setErrors] = useState<{ name?: string; email?: string, message?: string }>({});
+  const [message, setMessage] = useState("");
+
+  async function handleSubmit(e: React.FormEvent) {
+    e.preventDefault();
+
+    const result = contactEmail({
+      name: t("errors.name"),
+      email: t("errors.email"),
+      message: t("errors.message"),
+    }).safeParse(formData);
+    if (!result.success) {
+      const formattedErrors = result.error.flatten().fieldErrors;
+      setErrors({ name: formattedErrors.name?.[0], email: formattedErrors.email?.[0], message: formattedErrors.message?.[0] });
+      return;
+    }
+
+    setErrors({});
+
+    const res = await fetch("/api/send-email", {
+      method: "POST",
+      body: JSON.stringify(formData),
+      headers: { "Content-Type": "application/json" },
+    });
+
+    const data = await res.json();
+
+    if (data.success) {
+      setFormIsSubmitted(true);
+    }
+
+    setMessage(data.success || data.error);
+  }
 
   return (
-    <div id="contact-form" className="w-full md:w-4/5 xl:w-3/5 2xl:w-3/6">
-      {/* <form onSubmit={handleSubmit} className={`w-full ${style.form}`}> */}
+    <div id="contact-form" onSubmit={handleSubmit} className="w-full md:w-4/5 xl:w-3/5 2xl:w-3/6">
       <form className={`w-full ${style.form}`}>
         <Input
           id="name"
@@ -24,7 +56,10 @@ export const Form = () => {
           name="name"
           placeholder={t("inputNamePlaceholder")}
           className={`w-full ${style.inputName}`}
+          error={errors.name}
           required
+          onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+          value={formData.name}
         />
         <Input
           id="email"
@@ -33,6 +68,9 @@ export const Form = () => {
           placeholder={t("inputEmailPlaceholder")}
           className={`w-full ${style.inputEmail}`}
           required
+          error={errors.email}
+          onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+          value={formData.email}
         />
         <TextArea
           id="message"
@@ -40,6 +78,9 @@ export const Form = () => {
           placeholder={t("inputMessagePlaceholder")}
           className={`w-full ${style.inputMessage}`}
           required
+          error={errors.message}
+          onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+          value={formData.message}
         />
         <Button
           type={"submit"}

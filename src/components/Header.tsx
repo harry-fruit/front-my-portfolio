@@ -1,12 +1,12 @@
 "use client";
 
 import style from "@/styles/components/header.module.scss";
+import useHeader from "@/hooks/useHeader";
 import { ProjectIcon } from "@/components/icons/ProjectIcon";
 import { MenuButton } from "@/components/navbar/MenuButton";
 import { Navbar } from "@/components/navbar/Navbar";
 import { useState } from "react";
 import { Link } from "@/navigation";
-import useHeader from "@/hooks/useHeader";
 
 export const Header = () => {
   const [navbarActive, setNavbarActive] = useState(false);
@@ -18,7 +18,7 @@ export const Header = () => {
 
   const closeNavbar = () => {
     setNavbarActive(false);
-  };
+  }; 
 
   return (
     <header

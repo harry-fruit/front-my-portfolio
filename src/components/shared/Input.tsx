@@ -8,6 +8,9 @@ type Props = {
   className?: string;
   name: string;
   placeholder: string;
+  onChange?: React.ChangeEventHandler<HTMLInputElement>;
+  error?: string;
+  value: string;
 };
 
 export const Input = ({
@@ -16,6 +19,9 @@ export const Input = ({
   className = "",
   name,
   placeholder,
+  onChange,
+  error,
+  value
 }: Props) => {
   return (
     <div className={`${style.formControl} ${className}`}>
@@ -25,8 +31,11 @@ export const Input = ({
         placeholder={placeholder}
         className={`${style.input} ${style.inputAlt}`}
         name={name}
+        onChange={onChange}
+        value={value}
       />
-      <span className={`${style.inputBorder} ${style.inputBorderAlt}`}></span>
+      {/* <span className={`${style.inputBorder} ${style.inputBorderAlt}`}></span> */}
+      {error && <p className={style.error}>{error}</p>}
     </div>
   );
 };
