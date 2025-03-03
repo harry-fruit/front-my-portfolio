@@ -12,5 +12,5 @@ export const contactEmail = ({ name, email, message }: ErrorMessages) => {
     name: z.string().min(3, name),
     email: z.string().email(email),
     message: z.string().min(10, message),
-  })
+  });
 };

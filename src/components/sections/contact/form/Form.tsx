@@ -14,7 +14,7 @@ export const Form = ({ setFormIsSubmitted }: { setFormIsSubmitted: React.Dispatc
 
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
   const [errors, setErrors] = useState<{ name?: string; email?: string, message?: string }>({});
-  const [message, setMessage] = useState("");
+  const [, setMessage] = useState("");
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();

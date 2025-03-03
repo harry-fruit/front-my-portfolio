@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
-import { SESClient, SendEmailCommand } from '@aws-sdk/client-ses';
+import { SESClient, SendEmailCommand } from "@aws-sdk/client-ses";
 
 const sesClient = new SESClient({
-  region: 'sa-east-1',
+  region: "sa-east-1",
   credentials: {
     accessKeyId: process.env.AWS_ACCESS_KEY_ID as string,
     secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY as string,
@@ -19,7 +19,7 @@ export async function POST(req: Request) {
     );
   }
 
-  const to = 'contact@isaquedev.com';
+  const to = "contact@isaquedev.com";
 
   try {
     const command = new SendEmailCommand({
@@ -28,7 +28,7 @@ export async function POST(req: Request) {
         Body: {
           Text: { Data: message },
         },
-        Subject: { Data: `New message on my portfolio` },
+        Subject: { Data: `New message on my portfolio from ${name}` },
       },
       Source: process.env.EMAIL_FROM as string, // Must be a verified email in SES
     });
@@ -36,7 +36,7 @@ export async function POST(req: Request) {
     await sesClient.send(command);
     return NextResponse.json({ success: "Email sent successfully!" }, { status: 201 });
   } catch (error) {
-    console.error('Error sending email:', error);
-    return NextResponse.json({ error: 'Error sending email!' }, { status: 500 });
+    console.error("Error sending email:", error);
+    return NextResponse.json({ error: "Error sending email!" }, { status: 500 });
   }
 }
