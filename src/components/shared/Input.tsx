@@ -35,7 +35,7 @@ export const Input = ({
         value={value}
       />
       {/* <span className={`${style.inputBorder} ${style.inputBorderAlt}`}></span> */}
-      {error && <p className="text-red-500">{error}</p>}
+      {error && <p className={style.error}>{error}</p>}
     </div>
   );
 };

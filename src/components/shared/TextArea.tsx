@@ -30,7 +30,7 @@ export const TextArea = ({
         name={name}
         onChange={onChange}
       />
-      {error && <p className="bg-">{error}</p>}
+      {error && <p className={style.error}>{error}</p>}
     </div>
   );
 };
