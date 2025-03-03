@@ -9,9 +9,7 @@ import { useState } from "react";
 import { contactEmail } from "@/lib/validations/contact-email";
 
 
-
-
-export const Form = () => {
+export const Form = ({ setFormIsSubmitted }: { setFormIsSubmitted: React.Dispatch<React.SetStateAction<boolean>> }) => {
   const t = useTranslations("contact");
 
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -21,14 +19,12 @@ export const Form = () => {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
 
-    // Validate form data before sending
     const result = contactEmail({
       name: t("errors.name"),
       email: t("errors.email"),
       message: t("errors.message"),
     }).safeParse(formData);
     if (!result.success) {
-      // Extract errors from Zod
       const formattedErrors = result.error.flatten().fieldErrors;
       setErrors({ name: formattedErrors.name?.[0], email: formattedErrors.email?.[0], message: formattedErrors.message?.[0] });
       return;
@@ -43,12 +39,16 @@ export const Form = () => {
     });
 
     const data = await res.json();
+
+    if (data.success) {
+      setFormIsSubmitted(true);
+    }
+
     setMessage(data.success || data.error);
   }
 
   return (
     <div id="contact-form" onSubmit={handleSubmit} className="w-full md:w-4/5 xl:w-3/5 2xl:w-3/6">
-      {/* <form onSubmit={handleSubmit} className={`w-full ${style.form}`}> */}
       <form className={`w-full ${style.form}`}>
         <Input
           id="name"

@@ -62,7 +62,7 @@
     "inputEmailPlaceholder": "Enter your email",
     "inputMessagePlaceholder": "Type your message here",
     "inputButton": "Send",
-    "success": "Thank you for your message. I will get in touch with you soon!",
+    "success": "Email sent! I will get in touch as soon as possible :D",
     "errors": {
       "name": "Name must be at least 3 characters",
       "email": "Invalid email format",
