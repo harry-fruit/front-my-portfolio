@@ -26,3 +26,4 @@ frontend:
       - bun.lockb
       - .bun
       - node_modules/**/*
+      - .next/cache/**/*
