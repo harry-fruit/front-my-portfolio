@@ -8,7 +8,7 @@ import { GithubIcon } from "@/components/ui/custom/icons/github-icon";
 import { EmailIcon } from "@/components/ui/custom/icons/email-icon";
 import { useTranslations, useLocale } from "next-intl";
 import toast from "react-hot-toast";
-import { handleResumeGeneration } from "@/util/generateResume";
+import { handleResumeGeneration } from "@/util/generate-resume";
 import { useTransition } from "react";
 import { Loader } from "@/components/ui/custom/loader";
 import { useUserDevice } from "@/hooks/use-user-device";

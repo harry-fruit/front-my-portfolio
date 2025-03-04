@@ -1,7 +1,7 @@
 "use client";
 
 import style from "@/styles/components/theme-toggle.module.scss";
-import { getNewTheme } from "@/util/getTheme";
+import { getNewTheme } from "@/util/get-theme";
 import { useTheme } from "next-themes";
 
 export const ThemeToggle = () => {
