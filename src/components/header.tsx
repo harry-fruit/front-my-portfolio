@@ -1,10 +1,10 @@
 "use client";
 
 import style from "@/styles/components/header.module.scss";
-import useHeader from "@/hooks/useHeader";
-import { ProjectIcon } from "@/components/icons/ProjectIcon";
-import { MenuButton } from "@/components/navbar/MenuButton";
-import { Navbar } from "@/components/navbar/Navbar";
+import useHeader from "@/hooks/use-header";
+import { ProjectIcon } from "@/components/ui/custom/icons/project-icon";
+import { MenuButton } from "@/components/ui/custom/navbar/menu-button";
+import { Navbar } from "@/components/ui/custom/navbar/navbar";
 import { useState } from "react";
 import { Link } from "@/navigation";
 

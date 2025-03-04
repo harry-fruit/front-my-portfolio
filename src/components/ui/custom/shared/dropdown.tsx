@@ -1,6 +1,6 @@
 import style from "@/styles/components/dropdown.module.scss";
 import { MouseEvent, useState } from "react";
-import { TriangleIcon } from "@/components/icons/TriangleIcon";
+import { TriangleIcon } from "@/components/ui/custom/icons/triangle-icon";
 
 type Props = {
   onChange: (event: MouseEvent<HTMLLIElement>) => void;

@@ -1,9 +1,9 @@
 "use client";
 
 import style from "@/styles/portfolio/landing/contact/form.module.scss";
-import { Input } from "@/components/shared/Input";
-import { TextArea } from "@/components/shared/TextArea";
-import { Button } from "@/components/sections/contact/form/Button";
+import { Input } from "@/components/ui/custom/shared/input";
+import { TextArea } from "@/components/ui/custom/shared/text-area";
+import { Button } from "@/components/sections/contact/form/button";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { contactEmail } from "@/lib/validations/contact-email";

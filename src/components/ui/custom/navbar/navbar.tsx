@@ -5,10 +5,10 @@ import style from "@/styles/components/navbar/navbar.module.scss";
 import { Dispatch, MouseEvent, SetStateAction, useTransition } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
-import { ThemeToggle } from "@/components/theme-toggle/ThemeToggle";
-import { Dropdown, DropdownOptions } from "@/components/shared/Dropdown";
-import { BrazilFlag } from "@/components/icons/flags/Brazil";
-import { USFlag } from "@/components/icons/flags/US";
+import { ThemeToggle } from "@/components/ui/custom/theme-toggle";
+import { BrazilFlag } from "@/components/ui/custom/icons/flags/brazil";
+import { USFlag } from "@/components/ui/custom/icons/flags/us";
+import { Dropdown, DropdownOptions } from "@/components/ui/custom/shared/dropdown";
 
 type NavbarProps = {
   isActive: boolean;

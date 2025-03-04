@@ -2,8 +2,8 @@
 
 import { useEffect } from "react";
 import anime from "animejs";
-import useInView from "@/hooks/useInView";
-import useSize from "@/hooks/useSize";
+import useInView from "@/hooks/use-in-view";
+import useSize from "@/hooks/use-size";
 
 type Props = {
   children: React.ReactNode;

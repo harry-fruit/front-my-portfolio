@@ -1,5 +1,5 @@
 import style from "@/styles/portfolio/landing/experiences.module.scss";
-import { FadeIn } from "@/components/shared/FadeIn";
+import { FadeIn } from "@/components/ui/custom/shared/fade-in";
 
 type Props = {
   title: string;

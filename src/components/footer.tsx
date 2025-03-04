@@ -1,8 +1,8 @@
 import style from "@/styles/components/footer.module.scss";
 import { Link } from "@/navigation";
-import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
-import { GithubIcon } from "@/components/icons/GithubIcon";
-import { WhatsappIcon } from "@/components/icons/WhatsappIcon";
+import { LinkedinIcon } from "@/components/ui/custom/icons/linkedin-icon";
+import { GithubIcon } from "@/components/ui/custom/icons/github-icon";
+import { WhatsappIcon } from "@/components/ui/custom/icons/whatsapp-icon";
 import { useTranslations } from "next-intl";
 
 // TODO: Translate titles

@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 import { Text } from "@visx/text";
 import { scaleLog } from "@visx/scale";
 import Wordcloud from "@visx/wordcloud/lib/Wordcloud";
-import useSize from "@/hooks/useSize";
+import useSize from "@/hooks/use-size";
 
 type WordData = {
   text: string;

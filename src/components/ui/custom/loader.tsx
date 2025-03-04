@@ -1,5 +1,5 @@
 import style from "@/styles/components/loader.module.scss";
-import { SpinnerIcon } from "@/components/icons/Spinner";
+import { SpinnerIcon } from "@/components/ui/custom/icons/spinner";
 import { useTranslations } from "next-intl";
 
 type LoaderProps = {

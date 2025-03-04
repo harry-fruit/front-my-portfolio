@@ -1,7 +1,7 @@
 "use client";
 
 import style from "@/styles/components/button.module.scss";
-import { RightArrow } from "@/components/icons/RightArrow";
+import { RightArrow } from "@/components/ui/custom/icons/right-arrow";
 import { useRouter } from "@/navigation";
 
 type Props = {

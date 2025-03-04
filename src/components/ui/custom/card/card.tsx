@@ -3,7 +3,7 @@
 import style from "@/styles/components/card/card.module.scss";
 import { Link } from "@/navigation";
 import { ReactNode, useEffect, useRef, useState } from "react";
-import { RightArrow } from "@/components/icons/RightArrow";
+import { RightArrow } from "@/components/ui/custom/icons/right-arrow";
 
 type Props = {
   className?: string;

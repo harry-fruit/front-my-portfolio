@@ -1,12 +1,12 @@
 "use client";
 
 import style from "@/styles/portfolio/landing/intro.module.scss";
-import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
-import { Button } from "../contact/form/Button";
-import { GithubIcon } from "@/components/icons/GithubIcon";
+import { LinkedinIcon } from "@/components/ui/custom/icons/linkedin-icon";
+import { Button } from "./contact/form/button";
+import { GithubIcon } from "@/components/ui/custom/icons/github-icon";
 import { Link } from "@/navigation";
 import { useTranslations } from "next-intl";
-import { WordCloud } from "@/components/WordCloud";
+import { WordCloud } from "@/components/ui/custom/word-cloud";
 
 
 export function Intro() {

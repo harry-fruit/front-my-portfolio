@@ -1,8 +1,8 @@
 "use client"
 
 import style from "@/styles/portfolio/landing/contact.module.scss";
-import { Form } from "@/components/sections/contact/form/Form";
-import { FadeIn } from "@/components/shared/FadeIn";
+import { Form } from "@/components/sections/contact/form/form";
+import { FadeIn } from "@/components/ui/custom/shared/fade-in";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 

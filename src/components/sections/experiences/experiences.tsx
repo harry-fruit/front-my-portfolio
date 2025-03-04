@@ -2,13 +2,13 @@ import {
   SectionHeaderContainer,
   SectionSubtitle,
   SectionTitle,
-} from "@/components/shared/section-header/SectionHeader";
-import { FadeIn } from "@/components/shared/FadeIn";
-import { Timeline } from "@/components/sections/experiences/timeline/Timeline";
-import { TimelineItem } from "@/components/sections/experiences/timeline/TimelineItem";
-import { TimelinePeriod } from "@/components/sections/experiences/timeline/TimelinePeriod";
+} from "@/components/ui/custom/shared/section-header/section-header";
+import { FadeIn } from "@/components/ui/custom/shared/fade-in";
+import { Timeline } from "@/components/sections/experiences/timeline/timeline";
+import { TimelineItem } from "@/components/sections/experiences/timeline/timeline-item";
+import { TimelinePeriod } from "@/components/sections/experiences/timeline/timeline-period";
 import { useTranslations } from "next-intl";
-import { DocumentIcon } from "@/components/icons/DocumentIcon";
+import { DocumentIcon } from "@/components/ui/custom/icons/document-icon";
 import style from "@/styles/portfolio/landing/experiences.module.scss";
 import { Link } from "@/navigation";
 

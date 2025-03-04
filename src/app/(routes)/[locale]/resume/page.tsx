@@ -2,16 +2,16 @@
 
 import { Link } from "@/navigation";
 import style from "@/styles/resume.module.scss";
-import { LinkedinIcon } from "@/components/icons/LinkedinIcon";
-import { DownloadIcon } from "@/components/icons/Download";
-import { GithubIcon } from "@/components/icons/GithubIcon";
-import { EmailIcon } from "@/components/icons/EmailIcon";
+import { LinkedinIcon } from "@/components/ui/custom/icons/linkedin-icon";
+import { DownloadIcon } from "@/components/ui/custom/icons/download";
+import { GithubIcon } from "@/components/ui/custom/icons/github-icon";
+import { EmailIcon } from "@/components/ui/custom/icons/email-icon";
 import { useTranslations, useLocale } from "next-intl";
 import toast from "react-hot-toast";
 import { handleResumeGeneration } from "@/util/generateResume";
 import { useTransition } from "react";
-import { Loader } from "@/components/Loader";
-import { useUserDevice } from "@/hooks/useUserDevice";
+import { Loader } from "@/components/ui/custom/loader";
+import { useUserDevice } from "@/hooks/use-user-device";
 
 
 const Resume = () => {

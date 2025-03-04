@@ -11,11 +11,14 @@
   "dependencies": {
     "@aws-sdk/client-ses": "^3.758.0",
     "@formspree/core": "^3.0.1",
+    "@tabler/icons-react": "^3.30.0",
     "@visx/scale": "^3.12.0",
     "@visx/text": "^3.12.0",
     "@visx/wordcloud": "^3.12.0",
     "animejs": "^3.2.2",
+    "clsx": "^2.1.1",
     "jsonwebtoken": "^9.0.2",
+    "motion": "^12.4.10",
     "next": "15.1.7",
     "next-intl": "^3.26.5",
     "next-themes": "^0.4.4",
@@ -40,7 +43,7 @@
     "eslint-config-next": "14.2.3",
     "postcss": "^8.5.3",
     "tailwind-merge": "^3.0.2",
-    "tailwindcss": "^4.0.8",
+    "tailwindcss": "^4.0.9",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "^5.7.3"
   }

@@ -1,10 +1,10 @@
 "use client";
 
-import useSize from "@/hooks/useSize";
+import useSize from "@/hooks/use-size";
 import React, { useState } from "react";
 import { useSwipeable } from "react-swipeable";
-import { LeftArrow } from "@/components/icons/LeftArrow";
-import { RightArrow } from "@/components/icons/RightArrow";
+import { LeftArrow } from "@/components/ui/custom/icons/left-arrow";
+import { RightArrow } from "@/components/ui/custom/icons/right-arrow";
 import { useTranslations } from "next-intl";
 
 type Props = {

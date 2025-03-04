@@ -1,4 +1,7 @@
 @use "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @font-face {
   font-family: "Inter Tight";

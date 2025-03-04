@@ -3,14 +3,14 @@ import {
   SectionHeaderContainer,
   SectionSubtitle,
   SectionTitle,
-} from "@/components/shared/section-header/SectionHeader";
-import { FadeIn } from "@/components/shared/FadeIn";
-import { Card } from "@/components/card/Card";
-import { ResponsiveSlideGrid } from "@/components/shared/ResponsiveSlideGrid";
+} from "@/components/ui/custom/shared/section-header/section-header";
+import { FadeIn } from "@/components/ui/custom/shared/fade-in";
+import { Card } from "@/components/ui/custom/card/card";
+import { ResponsiveSlideGrid } from "@/components/ui/custom/shared/responsive-slide-grid";
 import { useTranslations } from "next-intl";
-import { CardTagsContainer } from "@/components/card/tags/CardTagsContainer";
-import { CardTag, CardTagProps } from "@/components/card/tags/CardTag";
-import { CardImage } from "@/components/card/CardImage";
+import { CardTagsContainer } from "@/components/ui/custom/card/tags/card-tags-container";
+import { CardTag, CardTagProps } from "@/components/ui/custom/card/tags/card-tag";
+import { CardImage } from "@/components/ui/custom/card/card-image";
 
 type CardsData = {
   link: {
