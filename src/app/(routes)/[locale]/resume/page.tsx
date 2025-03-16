@@ -112,6 +112,7 @@ const Resume = () => {
                 <li>{t("aside.skills.others.skills.five")}</li>
                 <li>{t("aside.skills.others.skills.six")}</li>
                 <li>{t("aside.skills.others.skills.seven")}</li>
+                <li>{t("aside.skills.others.skills.eight")}</li>
               </ul>
             </div>
           </div>
@@ -206,6 +207,9 @@ const Resume = () => {
                 <li>{t("experiences.jobs.three.activities.four")}</li>
                 <li>{t("experiences.jobs.three.activities.five")}</li>
                 <li>{t("experiences.jobs.three.activities.six")}</li>
+                <li>{t("experiences.jobs.three.activities.seven")}</li>
+                <li>{t("experiences.jobs.three.activities.eight")}</li>
+                <li>{t("experiences.jobs.three.activities.nine")}</li>
               </ul>
             </div>
           </div>

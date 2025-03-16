@@ -97,7 +97,8 @@
             "four": "ETL Processes",
             "five": "Clean Code",
             "six": "REST API",
-            "seven": "DDD"
+            "seven": "DDD",
+            "eight": "CI/CD"
           }
         }
       }
@@ -132,14 +133,15 @@
           "period": "June 2023 - Present",
           "description": "Currently, I work as a systems analyst and full stack developer, conceptualizing and implementing complex systems from scratch. I contribute to requirement analysis, interface creation, API development, automated processes, and relational database modeling.",
           "activities": {
-            "one": "Conceptualization and development of applications from scratch.",
+            "one": "Conceptualization and development of applications from scratch using best practices, such as DDD, SOLID, Design Patterns, Clean Architecture, etc.",
             "two": "Validation of PRs and release management.",
             "three": "Implementation and management of messaging queues with RabbitMQ.",
             "four": "System analysis and modeling.",
             "five": "Automation of manual processes, boosting productivity.",
             "six": "Creation of ETL processes using Python and SQL Server.",
             "seven": "Providing technical support to the team and assisting with business rules.",
-            "eight": "Management of cloud resources with Azure (VMs, Storage, DNS, etc.)."
+            "eight": "Management of cloud resources with Azure (VMs, Storage, Domain Management, etc.).",
+            "nine": "Creation of CI/CD pipelines with Azure DevOps."
           }
         }
       }

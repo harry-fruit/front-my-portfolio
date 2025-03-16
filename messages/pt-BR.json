@@ -97,7 +97,8 @@
             "four": "Processo ETL",
             "five": "Código Limpo",
             "six": "API REST",
-            "seven": "DDD"
+            "seven": "DDD",
+            "eight": "CI/CD"
           }
         }
       }
@@ -132,14 +133,15 @@
           "period": "Junho 2023 - Presente",
           "description": "Atualmente, atuo como analista de sistemas e desenvolvedor full stack, idealizando e implementando sistemas complexos desde o início. Contribuo na análise de requisitos, criação de interfaces, desenvolvimento de APIs e processos automatizados, além da modelagem de bancos de dados relacionais.",
           "activities": {
-            "one": "Idealização e desenvolvimento de aplicações do zero.",
+            "one": "Idealização e desenvolvimento de aplicações do zero utilizando das melhores práticas, como DDD, SOLID, Design Patterns, Clean Architecture, etc.",
             "two": "Validação de PRs e gestão de releases.",
             "three": "Implementação e gerenciamento de filas de mensageria com RabbitMQ.",
             "four": "Análise e modelagem de sistemas.",
             "five": "Automatização de processos manuais, aumentando a produtividade.",
             "six": "Criação de processos ETL com Python e SQL Server.",
             "seven": "Apoio técnico à equipe e suporte em regras de negócio.",
-            "eight": "Gestão de recursos de nuvem com Azure (VMs, Storage, DNS, etc.)."
+            "eight": "Gestão de recursos de nuvem com Azure (VMs, Storage, gestão de domínios, etc.).",
+            "nine": "Criação de pipelines de CI/CD com Azure DevOps."
           }
         }
       }
