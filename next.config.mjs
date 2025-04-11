@@ -9,7 +9,18 @@ const nextConfig = {
         API_URL: process.env.API_URL,
         JWT_SECRET: process.env.JWT_SECRET,
         API_SECRET: process.env.API_SECRET,
-    }
+    },
+    images: {
+        remotePatterns: [
+          {
+            protocol: 'https',
+            hostname: 'assets.aceternity.com',
+            port: '',
+            pathname: '/**',
+            search: '',
+          },
+        ],
+      },
 };
  
 export default withNextIntl(nextConfig);
