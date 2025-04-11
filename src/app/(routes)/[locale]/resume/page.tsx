@@ -136,23 +136,29 @@ const Resume = () => {
                   <span
                     className={`${style.companyName} ${style.primaryColor}`}
                   >
-                    Pollux{" "}
+                    Octea{" "}
                   </span>
                   <span className={style.role}>
-                    ― {t("experiences.jobs.one.role")}
+                    ― {t("experiences.jobs.three.role")}
                   </span>
                 </p>
                 <p className={style.period}>
-                  {t("experiences.jobs.one.period")}
+                  {t("experiences.jobs.three.period")}
                 </p>
               </div>
               <p className={style.description}>
-                {t("experiences.jobs.one.description")}
+                {t("experiences.jobs.three.description")}
               </p>
               <ul>
-                <li>{t("experiences.jobs.one.activities.one")}</li>
-                <li>{t("experiences.jobs.one.activities.two")}</li>
-                <li>{t("experiences.jobs.one.activities.three")}</li>
+                <li>{t("experiences.jobs.three.activities.one")}</li>
+                <li>{t("experiences.jobs.three.activities.two")}</li>
+                <li>{t("experiences.jobs.three.activities.three")}</li>
+                <li>{t("experiences.jobs.three.activities.four")}</li>
+                <li>{t("experiences.jobs.three.activities.five")}</li>
+                <li>{t("experiences.jobs.three.activities.six")}</li>
+                <li>{t("experiences.jobs.three.activities.seven")}</li>
+                <li>{t("experiences.jobs.three.activities.eight")}</li>
+                <li>{t("experiences.jobs.three.activities.nine")}</li>
               </ul>
             </div>
             <div className={style.experienceItem}>
@@ -187,31 +193,27 @@ const Resume = () => {
                   <span
                     className={`${style.companyName} ${style.primaryColor}`}
                   >
-                    Octea{" "}
+                    Pollux{" "}
                   </span>
                   <span className={style.role}>
-                    ― {t("experiences.jobs.three.role")}
+                    ― {t("experiences.jobs.one.role")}
                   </span>
                 </p>
                 <p className={style.period}>
-                  {t("experiences.jobs.three.period")}
+                  {t("experiences.jobs.one.period")}
                 </p>
               </div>
               <p className={style.description}>
-                {t("experiences.jobs.three.description")}
+                {t("experiences.jobs.one.description")}
               </p>
               <ul>
-                <li>{t("experiences.jobs.three.activities.one")}</li>
-                <li>{t("experiences.jobs.three.activities.two")}</li>
-                <li>{t("experiences.jobs.three.activities.three")}</li>
-                <li>{t("experiences.jobs.three.activities.four")}</li>
-                <li>{t("experiences.jobs.three.activities.five")}</li>
-                <li>{t("experiences.jobs.three.activities.six")}</li>
-                <li>{t("experiences.jobs.three.activities.seven")}</li>
-                <li>{t("experiences.jobs.three.activities.eight")}</li>
-                <li>{t("experiences.jobs.three.activities.nine")}</li>
+                <li>{t("experiences.jobs.one.activities.one")}</li>
+                <li>{t("experiences.jobs.one.activities.two")}</li>
+                <li>{t("experiences.jobs.one.activities.three")}</li>
               </ul>
             </div>
+
+
           </div>
         </section>
         <section id="projects" className={style.projects}>
