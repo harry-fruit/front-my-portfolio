@@ -173,26 +173,6 @@ export const Experience = (): JSX.Element => {
           <SectionSubtitle text={t("subTitle")} />
         </SectionHeaderContainer>
         <Timeline data={data}/>
-        {/* <Link
-          href={"/resume"}
-          target="_blank"
-          className={`w-full ${style.resumeContainer}`}
-          title={t("resume.title")}
-        >
-          <FadeIn
-            threshold={0.25}
-            className="w-full flex flex-col gap-3 justify-center items-center py-12"
-          >
-            <DocumentIcon
-              width="40"
-              height="40"
-              className={`${style.resumeIcon} font-bold`}
-            />
-            <p className={`${style.resumeText} capitalize font-bold text-lg`}>
-              {t("resume.text")}
-            </p>
-          </FadeIn>
-        </Link> */}
       </section>
   );
 };
