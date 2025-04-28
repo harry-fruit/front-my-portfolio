@@ -173,7 +173,7 @@ export const Experience = (): JSX.Element => {
           <SectionSubtitle text={t("subTitle")} />
         </SectionHeaderContainer>
         <Timeline data={data}/>
-        <Link
+        {/* <Link
           href={"/resume"}
           target="_blank"
           className={`w-full ${style.resumeContainer}`}
@@ -192,7 +192,7 @@ export const Experience = (): JSX.Element => {
               {t("resume.text")}
             </p>
           </FadeIn>
-        </Link>
+        </Link> */}
       </section>
   );
 };
